@@ -33,6 +33,12 @@ const LINKS = [
     value: "linkedin.com/in/arnav-upadhyay7",
     href: "https://www.linkedin.com/in/arnav-upadhyay7/",
   },
+  {
+    id: "X",
+    label: "X",
+    value: "x.com/Arnav_Upadhyay7",
+    href: "https://x.com/Arnav_Upadhyay7",
+  },
 ];
 
 /* ─── Toast ─────────────────────────────────────────────────────────────────── */
