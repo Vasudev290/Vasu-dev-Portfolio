@@ -100,7 +100,7 @@ export default function Loader({ onComplete }) {
                     textTransform: "uppercase",
                     color:         `rgba(232,64,12,0.80)`,
                     fontWeight:    500,
-                  }}>Arnav.dev</span>
+                  }}>Vasu.Dev</span>
                 </motion.div>
 
                 <motion.div

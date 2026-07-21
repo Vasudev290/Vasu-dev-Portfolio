@@ -2,33 +2,9 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { ProductBlock } from "./ProductBlock";
 
-import ElevateThumbnail from "../assets/thumbnails/elevate.png";
-import ZentraThumbnail from "../assets/zentraImages/room.png";
+import { PRODUCTS, CREAM, ORANGE } from "../data/products";
 
-const CREAM = "#EAE4D5";
-const ORANGE = "#E8400C";
 const E = [0.16, 1, 0.3, 1];
-
-const PRODUCTS = [
-  {
-    id: "elevate",
-    name: "Elevate",
-    hook: "For players who take gaming seriously.",
-    desc: "A competitive coaching platform for Valorant players. Get expert guidance, review gameplay, and improve faster with structured feedback and real-time sessions.",
-    stack: ["MERN", "Tailwind", "socket.io", "razorpay"],
-    accent: ORANGE,
-    mockup: { src: ElevateThumbnail },
-  },
-  {
-    id: "zentra",
-    name: "Zentra",
-    hook: "Zero friction 2d chill space.",
-    desc: "A real-time 2D social space where users can move, chat, and connect through text and voice — designed to feel effortless and alive.",
-    stack: ["React", "Phaser", "Node", "Express", "WebSocket", "WebRTC", "Tailwind"],
-    accent: CREAM,
-    mockup: { src: ZentraThumbnail },
-  },
-];
 
 export default function ProductsSection() {
   const headRef = useRef(null);

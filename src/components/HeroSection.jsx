@@ -481,7 +481,7 @@ export default function HeroSection({ visible }) {
               color: "rgba(232,64,12,0.85)",
               textTransform: "uppercase",
             }}>
-            Arnav.DEV
+            Vasu.DEV
           </span>
         </motion.div>
 
@@ -543,14 +543,14 @@ export default function HeroSection({ visible }) {
         />
 
         <ScrambleWord
-          text="ARNAV"
+          text="VASU"
           color={CREAM}
           style={nameStyle}
           delay={120}
           visible={visible}
         />
         <ScrambleWord
-          text="UPADHYAY"
+          text="DEV"
           color={RED}
           style={nameStyle}
           delay={280}
@@ -572,7 +572,7 @@ export default function HeroSection({ visible }) {
               textTransform: "uppercase",
               fontStyle: "italic",
             }}>
-            Crafting interfaces that feel inevitable
+            Creating seamless experiences through code and design.
           </span>
         </motion.div>
       </motion.div>
@@ -615,7 +615,7 @@ export default function HeroSection({ visible }) {
               textTransform: "uppercase",
               color: "rgba(234,228,213,0.70)",
             }}>
-            Frontend Engineer
+            Full Stack Developer (MERN)
           </span>
         </div>
 

@@ -4,6 +4,7 @@ import Landing from "./pages/Landing";
 import SmoothScroll from "./utils/SmoothScroll";
 import Elevate from "./pages/Elevate";
 import Zentra from "./pages/Zentra";
+import ProjectDetail from "./pages/ProjectDetail";
 import Cursor from "./components/Cursor";
 import { TransitionProvider } from "./components/PageTransition";
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/elevate" element={<Elevate />} />
           <Route path="/zentra" element={<Zentra />} />
+          <Route path="/:id" element={<ProjectDetail />} />
         </Routes>
       </TransitionProvider>
     </SmoothScroll>

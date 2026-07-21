@@ -17,29 +17,23 @@ const OR = "#E8470A";
 const OR_RGB = "232,71,10";
 const BG = "#0a0a0a";
 const E = [0.16, 1, 0.3, 1];
-const EMAIL = "arnavupadhyay7@gmail.com";
+const EMAIL = "vasukesavulu@gmail.com";
 
 const LINKS = [
   { id: "email", label: "Email", value: EMAIL, action: "copy" },
   {
     id: "github",
     label: "GitHub",
-    value: "github.com/ArnavUpadhyay7",
-    href: "https://github.com/ArnavUpadhyay7",
+    value: "github.com/Vasudev290",
+    href: "https://github.com/Vasudev290",
   },
   {
     id: "linkedin",
     label: "LinkedIn",
-    value: "linkedin.com/in/arnav-upadhyay7",
-    href: "https://www.linkedin.com/in/arnav-upadhyay7/",
+    value: "linkedin.com/in/vasudev31",
+    href: "https://www.linkedin.com/in/vasudev31/",
   },
-  {
-    id: "X",
-    label: "X",
-    value: "x.com/Arnav_Upadhyay7",
-    href: "https://x.com/Arnav_Upadhyay7",
-  },
-];
+];;
 
 /* ─── Toast ─────────────────────────────────────────────────────────────────── */
 function CopyToast({ visible }) {
@@ -421,7 +415,7 @@ export default function ContactSection() {
                 textTransform: "uppercase",
                 color: "rgba(234,228,213,0.45)",
               }}>
-              Arnav Upadhyay
+            Vasu Dev
             </span>
 
             <span
@@ -433,7 +427,7 @@ export default function ContactSection() {
                 letterSpacing: "0.16em",
                 color: "rgba(234,228,213,0.45)",
               }}>
-              Based in India · Available for freelance &amp; Internships
+              Based in India · Available for Full-Time Positions
             </span>
 
             <span
