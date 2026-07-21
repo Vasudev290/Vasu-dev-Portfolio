@@ -1,6 +1,6 @@
 import ElevateThumbnail from "../assets/thumbnails/elevate.png";
 import ZentraThumbnail from "../assets/zentraImages/room.png";
-import SmartEdLabsThumbnail from "../assets/thumbnails/smartedlab_thumbnail.png";
+import SmartEdLabsThumbnail from "../assets/thumbnails/Smartedlab_thumbnail.png";
 import AmataThumbnail from "../assets/thumbnails/Amata.png";
 import NourishedThumbnail from "../assets/thumbnails/Naurish_thumbnail.png";
 import PitcsThumbnail from "../assets/thumbnails/Pitcs_thumb.png";
